@@ -11,8 +11,7 @@ module.exports = {
       resolve: `gatsby-source-shopify`,
       options: {
         shopName: `my-sandbox-commerce`,
-        accessToken: process.env.SHOPIFY_ACCESS_TOKEN,
-        includeCollections: ["shop"],
+        accessToken: process.env.SHOPIFY_ACCESS_TOKEN
       },
     },
     `gatsby-plugin-react-helmet`,
